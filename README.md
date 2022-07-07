@@ -1,4 +1,4 @@
-# Minimal Proxy Clone Example Contract (EIP-1167)
+# Minimal Proxy Clone Contract Example (EIP-1167)
 
 This is an election example, you can add any wallet address as candidates. then users can vote them.<br />
 
