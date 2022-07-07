@@ -3,17 +3,14 @@
 pragma solidity 0.8.10;
 
 library DataTypes {
-    // enum States {
-    //     Unpaused,
-    //     Paused
-    // }
+    struct CandidateStruct {
+        string handle;
+        address voteNFT;
+        string voteNFTURI;
+    }
 
-    // struct PostData {
-    //     uint256 profileId;
-    //     string contentURI;
-    //     address collectModule;
-    //     bytes collectModuleInitData;
-    //     address referenceModule;
-    //     bytes referenceModuleInitData;
-    // }
+    struct CreateCandidateData {
+        string handle;
+        string voteNFTURI;
+    }
 }
