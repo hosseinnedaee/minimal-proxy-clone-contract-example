@@ -16,7 +16,7 @@ How to install:
 yarn
 ```
 
-Read the `tests` and run by:
+Read the `tests` and run it with:
 ```bash
 yarn test
 ```
